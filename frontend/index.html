@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style type="text/css">
+      body {
+        background-color: #000000;
+        color: #eeeeee;
+        font-family: tahoma, arial, sans-serif;
+      }
+      div.smoothie-chart-tooltip {
+        background: #444;
+        padding: 1em;
+        margin-top: 20px;
+        font-family: Consolas, monospace;
+        color: white;
+        font-size: 10px;
+        pointer-events: none;
+      }
+    </style>
+    <script type="text/javascript" src="smoothie.js"></script>
+    <script type="text/javascript" src="gpu-stats.js"></script>
+  </head>
+  <body onload="init()">
+    <h4>Temperature</h4>
+    <canvas id="smoothie-chart" width="500" height="100">
+  </body>
+</html>
